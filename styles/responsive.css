@@ -1,0 +1,28 @@
+@media screen and (max-width: 576px) {
+    .hero-section {
+    
+    padding-top: 52px;
+    }
+    .menu-icon-for-mobile {
+        display: block;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .navbar {
+        margin: 45px 20px;
+    }
+
+    .banner-content-and-image {
+        flex-direction: column;
+        gap: 64px;
+        margin: 0 20px;
+    }
+    .banner-title {
+        font-size: 36px;
+    }
+    
+    
+}
