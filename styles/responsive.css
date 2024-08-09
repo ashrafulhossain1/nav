@@ -43,7 +43,10 @@
     }
 
     .banner-content .btn-primary {
-        padding: 16px 35px;
+        padding: 16px 36px;
         font-size: 14px;
+    }
+    .btn-extra{
+        padding: 15px 34px;
     }
 }
