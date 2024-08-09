@@ -1,8 +1,9 @@
 @media screen and (max-width: 576px) {
     .hero-section {
-    
-    padding-top: 52px;
+
+        padding-top: 52px;
     }
+
     .menu-icon-for-mobile {
         display: block;
     }
@@ -13,16 +14,36 @@
 
     .navbar {
         margin: 45px 20px;
+        gap: 60px;
+    }
+
+    .banner-content-and-image {
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 48px;
     }
 
     .banner-content-and-image {
         flex-direction: column;
-        gap: 64px;
-        margin: 0 20px;
     }
+
     .banner-title {
         font-size: 36px;
+        /* border: solid 2px green; */
+        width: 80%;
     }
-    
-    
+
+    .banner-description {
+        /* border: solid 2px green; */
+        width: 80%;
+    }
+    .banner-btn{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner-content .btn-primary {
+        padding: 16px 35px;
+        font-size: 14px;
+    }
 }

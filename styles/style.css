@@ -2,7 +2,6 @@
 
 .inter-main {
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     color: white;
 }
 
@@ -22,31 +21,18 @@ body {
 /* hero section beginning */
 
 .hero-section {
-    background: linear-gradient(360deg, #000000, #333333);
+    background: linear-gradient(deg360, #000000, #333333);
     color: white;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
-    /* border: 2px solid red; */
-    /* max-width: 1440px; */
-    /* height: 715px; */
-    /* background-color: rgba(255, 255, 255, 0.086); */
     margin: 0 auto;
     padding-top: 57px;
     position: relative;
 }
-/* .linear-gradient{
-    height: 584px;
-    background: linear-gradient(360deg, #000000, #333333);
-  
-    
-} */
 
 .navbar {
     display: flex;
-    border: 2px solid green;
     max-width: 1060px;
     height: 43px;
     margin: 0 auto;
-    /* margin-top: 57px; */
     justify-content: space-between;
     align-items: center;
 }
@@ -94,41 +80,49 @@ body {
 
 .banner-content-and-image {
     display: flex;
-    border: 1px solid yellow;
+    /* border: 5px solid white; */
     align-items: center;
     margin: 32px auto;
     max-width: 1060px;
-    gap: 87px;
+    gap: 167px;
 }
 
 .banner-content {
+    /* border: 2px solid blueviolet; */
     max-width: 520px;
-    /* height: 440px; */
-    border: 2px solid blueviolet;
 }
 
 .banner-title {
     font-size: 78px;
     font-weight: 900;
-    margin-bottom: 28px;
 }
-.banner-content .btn-primary{
+
+.banner-description {
+    margin-bottom: 28px;
+    margin-top: 28px;
+}
+.banner-btn{
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 14px;
+}
+
+.banner-content .btn-primary {
     padding: 16px 40px;
 }
-.banner-content .btn-extra{
+
+.banner-content .btn-extra {
     background-color: transparent;
     border: 1px solid white;
-    margin-left: 10px;
     padding: 15px 39px;
 }
-.banner-description{
-    margin-bottom: 28px;
-}
+
 .banner-image {
-    border: 1px solid blueviolet;
-    max-height: 580px;
-    width: 350px;
+    /* border: 2px solid blueviolet; */
 
 }
-
+.banner-image img{
+    width: 100%;
+    /* border: 2px solid green; */
+}
 /* hero section ending */
